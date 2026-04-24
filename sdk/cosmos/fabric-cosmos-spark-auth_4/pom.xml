@@ -478,6 +478,7 @@
                   <dir>${project.basedir}</dir>
                   <includes>dependency-reduced-pom.xml</includes>
                   <stylesheet>${project.basedir}/../azure-cosmos-spark_3/stripDependencyReducedPom.xsl</stylesheet>
+                  <!-- The XSL file is shared from the azure-cosmos-spark_3 module -->
                   <outputDir>${project.basedir}</outputDir>
                   <skipDefaultExcludes>true</skipDefaultExcludes>
                   <addedToClasspath>false</addedToClasspath>
